@@ -1,8 +1,10 @@
+require_relative "animal"
+
+
 class Mammal < Animal
 
-  def initialize(args)
+  attr_accessor :name
 
-  end
 
   def warm_blooded?
     true

@@ -1,9 +1,11 @@
 class Animal
 
+  attr_accessor :name
 
-  def initialize(args)
-
+  def initialize(name)
+    @name = name
   end
 
-
 end
+
+

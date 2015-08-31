@@ -1,11 +1,15 @@
+require_relative "animal"
+
+
 class Amphibian < Animal
 
+  attr_accessor :name
 
-  def initialize(args)
+  # def initialize
 
-  end
+  # end
 
-  def warm_blood?
+  def warm_blooded?
     false
   end
 

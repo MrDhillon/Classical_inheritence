@@ -1,9 +1,16 @@
+require_relative "mammal"
+require './flight'
+
+
 class Bat < Mammal
 
+  include Flight
 
-  def initialize(args)
+  attr_accessor :name
 
-  end
+  # def initialize(name)
+  #   @name = name
+  # end
 
 
 end

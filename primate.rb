@@ -1,7 +1,14 @@
-class Primate < Mammal
-  def initialize(args)
+require_relative "mammal"
 
-  end
+
+class Primate < Mammal
+
+
+  attr_accessor :name
+
+  # def initialize(args)
+
+  # end
 
 
 end
